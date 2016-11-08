@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # generator-angular-2-spring-boot-mvc [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
 > Generator using angular 2, spring boot and spring mvc
 
@@ -35,7 +34,3 @@ MIT © [Joscelyn Jean](http://www.joscelynjean.com)
 [travis-url]: https://travis-ci.org/joscelynjean/generator-angular-2-spring-boot-mvc
 [daviddm-image]: https://david-dm.org/joscelynjean/generator-angular-2-spring-boot-mvc.svg?theme=shields.io
 [daviddm-url]: https://david-dm.org/joscelynjean/generator-angular-2-spring-boot-mvc
-=======
-# generator-angular2-spring-boot-mvc
-Generator for angular2, spring boot and spring mvc.
->>>>>>> 2958858ae0d7ffdcae9ea356fb7980eff534efc2
