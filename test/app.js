@@ -3,7 +3,7 @@ var path = require('path');
 var assert = require('yeoman-assert');
 var helpers = require('yeoman-test');
 
-describe('generator-angular-2-spring-boot-mvc:app', function () {
+describe('generator-angular2-spring-boot-mvc:app', function () {
   before(function () {
     return helpers.run(path.join(__dirname, '../generators/app'))
       .withPrompts({someAnswer: true})

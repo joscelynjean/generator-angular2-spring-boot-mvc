@@ -7,7 +7,7 @@ module.exports = yeoman.Base.extend({
   prompting: function () {
     // Have Yeoman greet the user.
     this.log(yosay(
-      'Welcome to the doozie ' + chalk.red('generator-angular-2-spring-boot-mvc') + ' generator!'
+      'Welcome to the doozie ' + chalk.red('generator-angular2-spring-boot-mvc') + ' generator!'
     ));
 
     var prompts = [{
@@ -25,12 +25,12 @@ module.exports = yeoman.Base.extend({
 
   writing: function () {
     this.fs.copy(
-      this.templatePath('dummyfile.txt'),
-      this.destinationPath('dummyfile.txt')
+      this.templatePath('.'),
+      this.destinationPath('.')
     );
   },
 
   install: function () {
-    this.installDependencies();
+    //this.installDependencies();
   }
 });

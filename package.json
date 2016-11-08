@@ -1,5 +1,5 @@
 {
-  "name": "generator-angular-2-spring-boot-mvc",
+  "name": "generator-angular2-spring-boot-mvc",
   "version": "0.0.0",
   "description": "Generator using angular 2, spring boot and spring mvc",
   "homepage": "",
@@ -41,7 +41,7 @@
       "mocha": true
     }
   },
-  "repository": "joscelynjean/generator-angular-2-spring-boot-mvc",
+  "repository": "joscelynjean/generator-angular2-spring-boot-mvc",
   "scripts": {
     "prepublish": "gulp prepublish",
     "test": "gulp"
