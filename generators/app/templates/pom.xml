@@ -3,8 +3,8 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.dummy</groupId>
-	<artifactId>DummyApplication</artifactId>
+	<groupId><%= package %></groupId>
+	<artifactId><%= artifactId %></artifactId>
 	<packaging>war</packaging>
 	<version>1.0.0</version>
 
@@ -28,7 +28,7 @@
 
 	<properties>
 		<java.version>1.8</java.version>
-    	<start-class>com.dummy.Application</start-class>
+    	<start-class><%= package %>.Application</start-class>
 	</properties>
 
 	<build>
