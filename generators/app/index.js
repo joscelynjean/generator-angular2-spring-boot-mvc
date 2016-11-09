@@ -20,6 +20,12 @@ module.exports = yeoman.Base.extend({
         name    : 'artifactId',
         message : 'Your artifact ID'
       },
+      // Artifact version in the pom.xml
+      {
+        type    : 'input',
+        name    : 'artifactVersion',
+        message : 'Your artifact version'
+      },
       // Package name for the pom.xml, folder generation and java classes
       {
         type    : 'input',
@@ -41,6 +47,7 @@ module.exports = yeoman.Base.extend({
       this.destinationPath('.'),
       {
         artifactId: this.props.artifactId,
+        artifactVersion: this.props.artifactVersion,
         package: this.props.package
       }
     );
@@ -51,6 +58,7 @@ module.exports = yeoman.Base.extend({
       this.destinationPath('src/main/java/' + folderHierarchy),
       {
         artifactId: this.props.artifactId,
+        artifactVersion: this.props.artifactVersion,
         package: this.props.package
       }
     );
@@ -61,6 +69,7 @@ module.exports = yeoman.Base.extend({
       this.destinationPath('src/web'),
       {
         artifactId: this.props.artifactId,
+        artifactVersion: this.props.artifactVersion,
         package: this.props.package
       }
     );
@@ -69,6 +78,7 @@ module.exports = yeoman.Base.extend({
       this.destinationPath('e2e'),
       {
         artifactId: this.props.artifactId,
+        artifactVersion: this.props.artifactVersion,
         package: this.props.package
       }
     );

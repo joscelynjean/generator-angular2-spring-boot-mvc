@@ -1,6 +1,6 @@
 {
   "name": "<%= artifactId %>",
-  "version": "0.0.0",
+  "version": "<%= artifactVersion %>",
   "license": "MIT",
   "angular-cli": {},
   "scripts": {

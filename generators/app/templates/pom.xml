@@ -6,7 +6,7 @@
 	<groupId><%= package %></groupId>
 	<artifactId><%= artifactId %></artifactId>
 	<packaging>war</packaging>
-	<version>1.0.0</version>
+	<version><%= artifactVersion %></version>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
