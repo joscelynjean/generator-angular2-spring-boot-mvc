@@ -1,12 +1,19 @@
 # generator-angular2-spring-boot-mvc [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
-> Generator using angular 2, spring boot and spring mvc
+
+Generator based on the following technologies :
+
+- Angular 2
+- sass/scss
+- Spring boot (runnable war)
+- Spring MVC
 
 ## Installation
 
-First, install [Yeoman](http://yeoman.io) and generator-angular2-spring-boot-mvc using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+First, install [Yeoman](http://yeoman.io), [Angular-cli](https://cli.angular.io/) and generator-angular2-spring-boot-mvc using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
 ```bash
 npm install -g yo
+npm install -g angular-cli
 npm install -g generator-angular2-spring-boot-mvc
 ```
 

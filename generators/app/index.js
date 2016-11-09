@@ -4,11 +4,6 @@ var chalk = require('chalk');
 var yosay = require('yosay');
 var mkdirp = require('mkdirp');
 
-// version
-var versions = {
-  "angularcli": "^1.0.0-beta.19-3"
-}
-
 module.exports = yeoman.Base.extend({
 
   welcome: function() {
@@ -62,8 +57,8 @@ module.exports = yeoman.Base.extend({
 
     // Copy angular webapp and end-to-end testing
     this.fs.copyTpl(
-      this.templatePath('src/main/webapp'),
-      this.destinationPath('src/main/webapp'),
+      this.templatePath('src/web'),
+      this.destinationPath('src/web'),
       {
         artifactId: this.props.artifactId,
         package: this.props.package
@@ -77,7 +72,7 @@ module.exports = yeoman.Base.extend({
         package: this.props.package
       }
     );
-    mkdirp.sync(this.destinationPath('src/main/webapp') + '/assets');
+    mkdirp.sync(this.destinationPath('src/web') + '/assets');
 
   },
 
